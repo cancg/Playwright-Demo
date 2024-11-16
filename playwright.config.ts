@@ -32,6 +32,8 @@ export default defineConfig({
     trace: 'retain-on-failure',
   },
 
+  grep:[new RegExp("@smoke")],
+
   /* Configure projects for major browsers */
   projects: [
     {
